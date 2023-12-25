@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
