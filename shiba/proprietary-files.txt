@@ -100,10 +100,6 @@ system_ext/framework/com.google.pixel.camera.connectivity.jar
 system_ext/framework/com.google.pixel.camera.services.cameraidremapper.jar
 system_ext/framework/com.google.pixel.camera.services.lyricconfigprovider.jar
 
-# Display
-system_ext/lib64/libpixeldisplaymanager_jni.so
-system_ext/priv-app/PixelDisplayService/PixelDisplayService.apk
-
 # Edge TPU
 system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
 system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc
