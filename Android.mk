@@ -36,13 +36,5 @@ $(DM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@rm -rf $@
 	$(hide) ln -sf /product/lib64/$(notdir $@) $@
 
-DISPLAY_LIBS := libpixeldisplaymanager_jni.so
-DISPLAY_SYMLINKS := $(addprefix $(TARGET_OUT_SYSTEM_EXT)/priv-app/PixelDisplayService/lib/arm64/,$(notdir $(DISPLAY_LIBS)))
-$(DISPLAY_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "PixelDisplayService lib link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /system_ext/lib64/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(DM_SYMLINKS) $(DISPLAY_SYMLINKS)
+ALL_DEFAULT_INSTALLED_MODULES += $(DM_SYMLINKS)
 endif
