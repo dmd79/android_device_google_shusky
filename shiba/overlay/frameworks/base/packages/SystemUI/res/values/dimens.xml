@@ -23,6 +23,15 @@
     <dimen name="physical_volume_up_button_center_screen_location_y">1000px</dimen>
     <dimen name="physical_volume_down_button_center_screen_location_y">1160px</dimen>
 
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">12dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">0dp</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
+
     <!-- Padding for the lock icon on the keyguard. In pixels - should not scale with
          display size. -->
     <dimen name="lock_icon_padding">50px</dimen>
