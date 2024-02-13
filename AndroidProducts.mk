@@ -24,10 +24,10 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_shiba.mk \
     $(LOCAL_DIR)/aosp_shiba_fullmte.mk \
     $(LOCAL_DIR)/factory_shiba.mk \
-    $(LOCAL_DIR)/lineage_husky.mk \
-    $(LOCAL_DIR)/lineage_shiba.mk
+    $(LOCAL_DIR)/derp_husky.mk \
+    $(LOCAL_DIR)/derp_shiba.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_ripcurrent-userdebug \
-    aosp_husky-userdebug \
-    aosp_shiba-userdebug
+    derp_husky-userdebug \
+    derp_shiba-userdebug
