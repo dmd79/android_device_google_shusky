@@ -22,6 +22,7 @@ DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_IS_PIXEL := true
 TARGET_IS_PIXEL_8 := true
+EXTRA_UDFPS_ANIMATIONS := true
 WITH_GMS := true
 
 # Device identifier. This must come after all inclusions
