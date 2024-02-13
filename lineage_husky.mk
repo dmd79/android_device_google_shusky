@@ -16,6 +16,8 @@ $(call inherit-product, device/google/zuma/lineage_common.mk)
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gms/gms_full.mk)
 
+TARGET_HAS_UDFPS := true
+
 include device/google/shusky/husky/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
