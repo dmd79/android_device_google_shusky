@@ -29,5 +29,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_ripcurrent-userdebug \
-    aosp_husky-userdebug \
-    aosp_shiba-userdebug
+    lineage_husky-userdebug \
+    lineage_shiba-userdebug
