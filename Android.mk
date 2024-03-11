@@ -25,7 +25,7 @@ LOCAL_PATH := $(call my-dir)
 # if some modules are built directly from this directory (not subdirectories),
 # their rules should be written here.
 
-ifneq (,$(filter $(TARGET_DEVICE),ripcurrent husky shiba))
+ifneq ($(filter shiba husky ripcurrent,$(TARGET_DEVICE)),)
   include $(call all-makefiles-under,$(LOCAL_PATH))
 
 DM_LIBS := libdmengine.so libdmjavaplugin.so
