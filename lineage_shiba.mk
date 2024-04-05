@@ -12,6 +12,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/shusky/aosp_shiba.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
 
+# GApps
+WITH_GMS := true
+$(call inherit-product-if-exists, vendor/gms/gms_full.mk)
+
 include device/google/shusky/shiba/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
