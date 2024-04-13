@@ -17,6 +17,10 @@ WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gms/gms_full.mk)
 
 TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_IS_PIXEL := true
+TARGET_IS_PIXEL_8 := true
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 include device/google/shusky/husky/device-lineage.mk
 
