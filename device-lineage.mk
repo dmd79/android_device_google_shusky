@@ -42,6 +42,9 @@ TARGET_HAS_UDFPS := true
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# Face Unlock
+include vendor/google/faceunlock/device.mk
+
 # Build necessary packages for vendor
 
 # Audio
