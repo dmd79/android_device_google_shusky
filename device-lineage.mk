@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# GApps
+WITH_GMS := true
+$(call inherit-product-if-exists, vendor/gms/gms_full.mk)
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
