@@ -33,6 +33,9 @@ include packages/apps/PixelParts/device.mk
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
