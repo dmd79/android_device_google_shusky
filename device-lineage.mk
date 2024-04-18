@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
 # GApps
+TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gms/gms_full.mk)
 
